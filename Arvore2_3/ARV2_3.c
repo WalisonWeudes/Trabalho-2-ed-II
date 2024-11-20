@@ -9,7 +9,7 @@
 ARV2_3 *criar_no(Informacao info, ARV2_3 *filho_esquerda, ARV2_3*filho_centro){
     ARV2_3 *no = (ARV2_3 *)malloc(sizeof(ARV2_3)); 
 
-    if (no == NULL){
+    if (no != NULL){
         no->info1 = info;
         no->esquerda = filho_esquerda;
         no->centro = filho_centro; 
